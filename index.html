@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
     <title>Pizzaria</title>
 </head>
 <body>
-    
+    <section id="contact">
+        <div id="contact-content">
+            <div id="contact-main-text">
+                <h2 id="contact-title">Contact</h2>
+                <p>Find us at some address at some place or call us at 05050515-122330</p>
+                <p><span id="fyi">FYI!</span>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.</p>
+                <p id="form-title">Reserve a table, ask for today's special or just send us a message:</p>
+            </div>
+            <form>
+                <label for="name">
+                    <input type="text" id="name" name="name" placeholder="Name" maxlength="50">
+                </label>
+                <br>
+                <label for="how-many">
+                    <input type="number" id="how-many" name="how-many-people" placeholder="How many people" min="1" max="100">  
+                </label>
+                <br>
+                <label for="date">
+                    <input type="datetime-local" id="date" name="date">
+                </label>
+                <br>
+                <label for="message">
+                    <textarea name="message" id="message" cols="30" rows="10" maxlength="500" placeholder="Message \ Special Requirements"></textarea>
+                </label>
+                <br>
+                <label for="send-message">
+                    <input type="button" id="send-message" value="Send Message">
+                </label>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
