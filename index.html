@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="./estilo/menu-style.css">
     <title>Pizzaria</title>
 </head>
+
 <body>
+
+        <!-- Seção referente ao menu -->
+        <section>
+            <div class="container">
+    
+                <h2 class="container__upper-text">The Menu</h2>
+    
+                <div class="menu">
+                    <!-- Botões que aparecem no header -->
+                    <div class="menu__box-buttons">
+                        <button class="menu__button active" id="pizza">Pizza</button>
+                        <button class="menu__button" id="salads">Salads</button>
+                        <button class="menu__button" id="starter">Starter</button>
+                    </div>
+                    <!-- Conteudo -->
+    
+                    <div class="content-box">
+    
+                        <!--<div class="content">
+                            <span class="content__price-box">$12.50</span>
+    
+                            <h3 class="content__item-name">Margherita
+                                <span class="content__grey-box">NEW</span>
+                                <span class="content__grey-box">POPULAR</span>
+                            </h3>
+                                
+                            <p class="content__item-description">FRESH TOMATOES, FRESH MOZZARELLA, FRESH BASIL</p>
+                        </div>
+    
+    
+                        <div class="content">
+                            <span class="content__price-box">$12.50</span>
+                        
+                            <h3 class="content__item-name">Margherita <span class="content__red-box">HOT!</span> </h3> 
+                            <p class="content__item-description">FRESH TOMATOES, FRESH MOZZARELLA, FRESH BASIL</p>
+                        </div>-->
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção referente aos contatos -->
     <section id="contact">
         <div id="contact-content">
             <div id="contact-main-text">
                 <h2 id="contact-title">Contact</h2>
                 <p>Find us at some address at some place or call us at 05050515-122330</p>
-                <p><span id="fyi">FYI!</span>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.</p>
+                <p><span id="fyi">FYI!</span>We offer full-service catering for any event, large or small. We understand
+                    your needs and we will cater the food to satisfy the biggest criteria of them all, both look and
+                    taste.</p>
                 <p id="form-title">Reserve a table, ask for today's special or just send us a message:</p>
             </div>
             <form>
@@ -22,7 +71,8 @@
                 </label>
                 <br>
                 <label for="how-many">
-                    <input type="number" id="how-many" name="how-many-people" placeholder="How many people" min="1" max="100">  
+                    <input type="number" id="how-many" name="how-many-people" placeholder="How many people" min="1"
+                        max="100">
                 </label>
                 <br>
                 <label for="date">
@@ -30,7 +80,8 @@
                 </label>
                 <br>
                 <label for="message">
-                    <input type="text" id="message" name="message" placeholder="Message \ Special Requirements" maxlength="500">
+                    <input type="text" id="message" name="message" placeholder="Message \ Special Requirements"
+                        maxlength="500">
                 </label>
                 <br>
                 <label for="send-message-btn">
@@ -39,5 +90,11 @@
             </form>
         </div>
     </section>
+
+
+    <!-- Script referente ao menu -->
+    <script src="./menu.js"></script>
+
 </body>
+
 </html>
