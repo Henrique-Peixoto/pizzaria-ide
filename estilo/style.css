@@ -49,9 +49,13 @@ form label input{
 }
 
 form label input::placeholder {
-    font-size: 20px;
+    font-size: 25px;
 } 
 
-#send-message {
+form label input {
+    font-size: 25px;
+}
+
+#send-message-btn {
     font-size: 20px;
 }
