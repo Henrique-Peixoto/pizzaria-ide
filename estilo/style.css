@@ -1,3 +1,6 @@
+/* 
+    Formulário
+*/
 * {
     font-family: 'Amatic SC', sans-serif;
 }
@@ -58,4 +61,90 @@ form label input {
 
 #send-message-btn {
     font-size: 20px;
+}
+
+/* 
+    Cardápio
+*/
+header ol.list {
+    display:flex;
+    justify-content: flex-start ;
+    list-style: none;
+    background-color: rgba(0, 0, 0,0.7);
+    margin: 0px;
+}
+
+header li {
+    padding: 5px 0px;
+    margin: 0px;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(226, 213, 213);
+    padding: 5px 15px;
+    transition: background-color 1s, color 1s;
+}
+
+header li a:hover,
+header li a:active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../images/header.jpg");
+    color:rgb(226, 213, 213);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+header div.big-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2em;
+}
+
+header div.big-msg h2{
+    margin:10px;
+}
+
+header div.big-msg h3 {
+    margin: 10px;
+    background-color: black;
+    font-size: 0.5em;
+    padding: 10px 0px;
+}
+
+header div.big-msg h3 a{
+    text-decoration: none;
+    color: rgb(226, 213, 213);
+    padding: 10px;
+    transition: background-color 1s, color 1s;
+}
+
+header div.big-msg h3 a:hover,
+header div.big-msg h3 a:active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+header div.open-hour {
+    align-self: flex-start;
+    margin:0px 3px;
+}
+
+header div.open-hour h4 {
+    background-color: black;
+    display: block;
+    padding: 5px;
+    margin: 5px 9px;
 }
