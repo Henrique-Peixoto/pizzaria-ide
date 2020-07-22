@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #contact {
     display: block;
     background-color: rgb(108, 122, 129);
@@ -174,12 +178,12 @@ header div.open-hour h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 40px;
     margin: 0;
 }
 
 .menu__button {
     height: 100%;
+    line-height: 40px;
     flex-grow: 1;
     margin: 0;
     font-size: 120%;
