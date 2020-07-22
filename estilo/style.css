@@ -252,3 +252,14 @@ header div.open-hour h4 {
     font-weight: 400;
     color: white;
 }
+
+/*
+    Mapa
+*/
+
+section.map-section {
+    background-image: url("../images/map.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
