@@ -1,0 +1,105 @@
+
+.container {
+    margin: 0;
+    padding: 7vh 30%;
+    background-color: black;
+}
+
+.container__upper-text {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu__box-buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    height: 40px;
+    margin: 0;
+}
+
+.menu__button {
+    height: 100%;
+    flex-grow: 1;
+    margin: 0;
+    font-size: 120%;
+    border: none;
+    
+    color: white;
+    background-color: black;
+
+    transition: all 100ms ease-in 0s ;
+
+    cursor: pointer;
+}
+
+.menu__button:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.menu__button:focus {
+    outline: none;
+}
+
+.active {
+    background-color: red !important;
+}
+
+
+.content-box {
+    margin: 0;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    font-size: 110%;
+    margin: 0;
+    background-color: white;
+}
+
+.content__item-name {
+    margin: 0;
+    padding: 2% 2%;
+}
+
+.content__item-description {
+    color: black;
+    margin: 0;
+    padding: 2% 2%;
+}
+
+.content__price-box {
+    float: right;
+    background-color: grey;
+    padding: 1% 1%;
+    border-radius: 15%;
+    color: white;
+    margin: 3% 3%;
+} 
+
+.content__grey-box {
+    background-color: grey;
+    padding: 3px 3px;
+    border-radius: 20%;
+    font-size: 80%;
+    font-weight: 400;
+    color: white;
+}
+
+.content__red-box {
+    background-color: red;
+    padding: 3px 3px;
+    border-radius: 10%;
+    font-size: 80%;
+    font-weight: 400;
+    color: white;
+}
