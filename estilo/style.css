@@ -258,7 +258,7 @@ header div.open-hour h4 {
 }
 
 /*
-    About
+    Sobre
 */
 
 section#about {
@@ -289,6 +289,29 @@ section#about div.corpo p {
 div.img-container {
     display: block;
     margin: 20px auto;
+}
+
+#mr-italiano {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#the-chef {
+    grid-column: 1 / 2;
+}
+
+#interior-title {
+    grid-column: 1 / 2;
+}
+
+#pizza-dude {
+    max-width: 35%;
+    border-radius: 50%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    justify-self: end;
+    align-self: center;
 }
 
 div.img-container img {
@@ -323,12 +346,20 @@ section#about div.corpo div.schedule div.column2 {
         max-width: 380px;
         margin: auto 20px;
     }
+
+    #pizza-dude {
+        max-width: 50%;
+    }
 }
 
 @media (max-width:900px){
     section#about div.corpo {
         max-width: 780px;
         margin: auto 30px;
+    }
+
+    #pizza-dude {
+        max-width: 40%;
     }
 }
 
