@@ -258,6 +258,81 @@ header div.open-hour h4 {
 }
 
 /*
+    About
+*/
+
+section#about {
+    display: block;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(124, 53, 53, 0.719);
+    font-size: 20px;
+}
+
+section#about div.corpo {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    color: white;
+}
+
+section#about div.corpo h3{
+    font-size: 45px;
+    text-align: center;
+}
+
+section#about div.corpo p {
+    margin: 10px auto 10px 0px;
+}
+
+div.img-container {
+    display: block;
+    margin: 20px auto;
+}
+
+div.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+section#about div.corpo h4{
+    font-size: 35px;
+    margin: 0px auto 10px 0px;
+}
+
+section#about div.corpo div.schedule {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+section#about div.corpo div.schedule p{
+    margin: 20px auto 20px 0px;
+}
+
+section#about div.corpo div.schedule div.column1 {
+    justify-self: start;
+}
+
+section#about div.corpo div.schedule div.column2 {
+    margin: auto auto;
+}
+
+@media (max-width:600px){
+    section#about div.corpo {
+        max-width: 380px;
+        margin: auto 20px;
+    }
+}
+
+@media (max-width:900px){
+    section#about div.corpo {
+        max-width: 780px;
+        margin: auto 30px;
+    }
+}
+
+/*
     Mapa
 */
 
